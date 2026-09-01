@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Portfolio of Shri Krishna Yadav, an aspiring DevOps Engineer focused on AWS, Docker, Kubernetes, Linux, Jenkins and Terraform.">
-<meta name="keywords" content="DevOps, AWS, Docker, Kubernetes, Linux, Terraform, Jenkins, Portfolio">
-<title>Shri Krishna Yadav — DevOps Engineer</title>
+<meta name="description" content="Portfolio of Shri Krishna Yadav, a DevOps / Cloud Engineering intern focused on AWS, Docker, Kubernetes, Jenkins, Trivy and Terraform.">
+<meta name="keywords" content="DevOps, AWS, Docker, Kubernetes, Linux, Terraform, Jenkins, Trivy, Portfolio">
+<title>Shri Krishna Yadav — DevOps / Cloud Engineering Intern</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -184,6 +184,13 @@
     font-family:var(--mono);font-size:12px;padding:5px 10px;border-radius:6px;
     background:var(--bg-panel-2);border:1px solid var(--border);color:var(--text);
   }
+  .ach-list{list-style:none;}
+  .ach-list li{
+    font-size:14px;color:var(--text-muted);padding-left:20px;position:relative;margin-bottom:10px;
+  }
+  .ach-list li::before{content:'▸';position:absolute;left:0;color:var(--green);}
+  .ach-list li b{color:var(--text);font-weight:600;}
+  .ach-list li a{color:var(--green);text-decoration:underline;text-decoration-color:var(--green-dim);}
 
   /* ---------- ROADMAP ---------- */
   .roadmap{display:flex;flex-direction:column;gap:0;max-width:640px;}
@@ -259,7 +266,7 @@
       <a href="#skills">skills</a>
       <a href="#projects">projects</a>
       <a href="#contact">contact</a>
-      <a class="nav-resume" href="Shri_Krishna_Yadav_CV.pdf" target="_blank" rel="noopener">↓ resume</a>
+      <a class="nav-resume" href="Shri_Krishna_Yadav_Resume.pdf" target="_blank" rel="noopener">↓ resume</a>
     </div>
   </div>
 </nav>
@@ -269,11 +276,11 @@
     <div class="eyebrow"><span class="dot"></span> SYSTEM STATUS — ALL SERVICES OPERATIONAL</div>
     <div class="terminal-line"><span class="prompt">root@skyadav:~$</span> whoami</div>
     <h1>Shri Krishna Yadav<span class="cursor"></span></h1>
-    <p class="role">Aspiring <b>DevOps Engineer | Cloud & Infrastructure Enthusiast</b> — building and breaking cloud infrastructure, containers, and pipelines to learn how production systems actually stay up.</p>
+    <p class="role"><b>DevOps / Cloud Engineering Intern</b> — building secure, automated CI/CD pipelines and highly-available AWS infrastructure, from Jenkins + Trivy security gates to Kubernetes deployments.</p>
     <p class="hero-sub">Final-year CSE undergrad · JSS Academy of Technical Education, Noida</p>
 
     <div class="hero-actions">
-      <a class="btn-primary" href="Shri_Krishna_Yadav_CV.pdf" target="_blank" rel="noopener">⬇ Download Resume</a>
+      <a class="btn-primary" href="Shri_Krishna_Yadav_Resume.pdf" target="_blank" rel="noopener">⬇ Download Resume</a>
       <a class="btn-ghost" href="#projects">View Projects</a>
       <a class="btn-ghost" href="https://leetcode.com/u/Shri_Krishna_Yadav/" target="_blank" rel="noopener">LeetCode ↗</a>
     </div>
@@ -289,8 +296,8 @@
         <div class="svc"><span class="svc-name">Docker</span><span class="svc-status is-ok"><span class="dot"></span>operational</span></div>
         <div class="svc"><span class="svc-name">Kubernetes</span><span class="svc-status is-ok"><span class="dot"></span>operational</span></div>
         <div class="svc"><span class="svc-name">AWS</span><span class="svc-status is-ok"><span class="dot"></span>operational</span></div>
-        <div class="svc"><span class="svc-name">Jenkins</span><span class="svc-status is-learning"><span class="dot"></span>operational</span></div>
-        <div class="svc"><span class="svc-name">Terraform</span><span class="svc-status is-learning"><span class="dot"></span>operational</span></div>
+        <div class="svc"><span class="svc-name">Jenkins</span><span class="svc-status is-ok"><span class="dot"></span>operational</span></div>
+        <div class="svc"><span class="svc-name">Terraform</span><span class="svc-status is-ok"><span class="dot"></span>operational</span></div>
       </div>
     </div>
   </header>
@@ -298,20 +305,20 @@
   <section id="about">
     <div class="sec-head reveal"><span class="sec-tag">01 · about</span><div class="sec-rule"></div></div>
     <p class="about-text reveal">
-      I'm a final-year Computer Science student passionate about DevOps, cloud infrastructure, and automation. I have built a production-style AWS three-tier architecture using private subnets, an Application Load Balancer, Auto Scaling, AWS Systems Manager (SSM), and Aurora PostgreSQL. I enjoy learning by building real infrastructure, containerizing applications with Docker, deploying workloads on Kubernetes, and continuously expanding my skills in Jenkins and Terraform.
+      I'm a final-year Computer Science student specializing in AWS cloud infrastructure and DevSecOps CI/CD pipelines. I've built a production-style AWS three-tier architecture using private subnets, an Application Load Balancer, Auto Scaling, and Amazon RDS, and designed a Jenkins Declarative Pipeline that builds, security-scans with Trivy, and deploys a Spring Boot + PostgreSQL API to Kubernetes. I enjoy learning by building real infrastructure end-to-end — containers, orchestration, and automation included.
     </p>
     <div class="stat-row reveal">
       <div class="stat linked">
-        <a href="https://leetcode.com/u/Shri_Krishna_Yadav/" target="_blank" rel="noopener"><div class="num">200+</div></a>
+        <a href="https://leetcode.com/u/Shri_Krishna_Yadav/" target="_blank" rel="noopener"><div class="num">150+</div></a>
         <div class="label">LeetCode problems solved</div>
       </div>
-      <div class="stat"><div class="num">3</div><div class="label">hands-on infra projects</div></div>
+      <div class="stat"><div class="num">4</div><div class="label">hands-on infra projects</div></div>
       <div class="stat"><div class="num">7</div><div class="label">tools in active use</div></div>
     </div>
     <div class="edu-card reveal">
       <div>
         <div class="deg">B.Tech, Computer Science & Engineering</div>
-        <div class="inst">JSS Academy of Technical Education, Noida</div>
+        <div class="inst">JSS Academy of Technical Education, Noida · CGPA: 7.87/10</div>
       </div>
       <div class="yr">2023 – 2027</div><div style="margin-top:18px;"><a class="btn" href="https://github.com/Krishna9451" target="_blank">GitHub Repository ↗</a></div>
     </div>
@@ -330,11 +337,15 @@
       </div>
       <div class="skill-card">
         <h3>Cloud (AWS)</h3>
-        <div class="skill-tags"><span class="tag">VPC</span><span class="tag">EC2</span><span class="tag">ALB</span><span class="tag">Auto Scaling</span><span class="tag">NAT / IGW</span><span class="tag">Security Groups</span></div>
+        <div class="skill-tags"><span class="tag">VPC</span><span class="tag">EC2</span><span class="tag">ALB</span><span class="tag">Auto Scaling</span><span class="tag">RDS</span><span class="tag">IAM</span><span class="tag">S3</span><span class="tag">NAT / IGW</span><span class="tag">Security Groups</span></div>
       </div>
       <div class="skill-card">
-        <h3>Databases & CI/CD</h3>
-        <div class="skill-tags"><span class="tag">MongoDB</span><span class="tag">PostgreSQL / Aurora</span><span class="tag">Jenkins</span><span class="tag">Terraform</span></div>
+        <h3>CI/CD, IaC & Security</h3>
+        <div class="skill-tags"><span class="tag">Jenkins</span><span class="tag">Terraform</span><span class="tag">Trivy</span><span class="tag">MongoDB</span><span class="tag">PostgreSQL</span></div>
+      </div>
+      <div class="skill-card">
+        <h3>Programming & APIs</h3>
+        <div class="skill-tags"><span class="tag">Java</span><span class="tag">Spring Boot</span><span class="tag">Node.js</span><span class="tag">REST APIs</span></div>
       </div>
     </div>
 
@@ -343,15 +354,15 @@
       <div class="roadmap reveal">
         <div class="rm-item">
           <div class="rm-dot"></div>
-          <div class="rm-body"><b>Terraform</b><span>Writing infrastructure-as-code to provision AWS resources instead of manual setup.</span></div>
-        </div>
-        <div class="rm-item">
-          <div class="rm-dot"></div>
-          <div class="rm-body"><b>Jenkins Pipelines</b><span>Moving from freestyle jobs to full declarative CI/CD pipelines.</span></div>
+          <div class="rm-body"><b>AWS Certified Solutions Architect</b><span>Working toward certification to deepen AWS architecture fundamentals.</span></div>
         </div>
         <div class="rm-item">
           <div class="rm-dot"></div>
           <div class="rm-body"><b>Kubernetes at scale</b><span>Exploring Helm charts and production-grade cluster patterns.</span></div>
+        </div>
+        <div class="rm-item">
+          <div class="rm-dot"></div>
+          <div class="rm-body"><b>GitOps workflows</b><span>Extending the Jenkins-based pipeline toward ArgoCD-style continuous delivery.</span></div>
         </div>
       </div><div style="margin-top:18px;"><a class="btn" href="https://github.com/Krishna9451" target="_blank">GitHub Repository ↗</a></div>
     </div>
@@ -362,10 +373,28 @@
 
     <div class="project reveal">
       <div class="project-head">
-        <div class="project-title">Three-Tier Architecture on AWS</div>
+        <div class="project-title">NovaPay Bank API — DevSecOps CI/CD</div>
+        <div class="project-kind">ci/cd · security</div>
+      </div>
+      <p class="project-desc">Designed a Jenkins Declarative Pipeline that builds, security-scans, and deploys a Spring Boot + PostgreSQL REST API to Kubernetes on every GitHub commit.</p>
+      <ul>
+        <li>Automated test, build, Docker packaging, and Kubernetes deployment for a <b>Spring Boot + PostgreSQL</b> REST API via a Jenkins Declarative Pipeline.</li>
+        <li>Integrated <b>Trivy</b> as a hard security gate to scan Docker images for HIGH/CRITICAL vulnerabilities — found and remediated 3 HIGH-severity OpenSSL CVEs via a base image upgrade and rescan.</li>
+        <li>Deployed to Kubernetes using <b>Deployments, Services, ConfigMaps, Secrets, PersistentVolumeClaims</b>, and a Horizontal Pod Autoscaler across 5 API replicas.</li>
+        <li>Provisioned initial AWS infrastructure (EC2, VPC, Subnets, Security Groups) before migrating the deployment workflow to a fully automated CI/CD pipeline.</li>
+        <li>Resolved Maven build permission failures via UID/GID matching and fixed Trivy scan path conflicts, restoring pipeline reliability.</li>
+      </ul>
+      <div class="project-tags">
+        <span class="tag">Java 21</span><span class="tag">Spring Boot</span><span class="tag">Jenkins</span><span class="tag">Docker</span><span class="tag">Trivy</span><span class="tag">PostgreSQL 16</span><span class="tag">Kubernetes</span><span class="tag">AWS EC2</span>
+      </div><div style="margin-top:18px;"><a class="btn" href="https://github.com/Krishna9451/novapay-devsecops" target="_blank">GitHub Repository ↗</a></div>
+    </div>
+
+    <div class="project reveal">
+      <div class="project-head">
+        <div class="project-title">AWS Three-Tier Web Architecture</div>
         <div class="project-kind">cloud infra</div>
       </div>
-      <p class="project-desc">Designed and deployed a highly-available three-tier application architecture on AWS, focused on secure networking and resilient compute rather than just "getting it running."</p>
+      <p class="project-desc">Designed and deployed a highly-available three-tier web architecture on AWS, separating web, application, and database layers.</p>
 
       <div class="diagram-wrap">
         <svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg">
@@ -402,11 +431,11 @@
           <text x="344" y="158" font-family="JetBrains Mono, monospace" font-size="10.5" fill="#6B7785">private subnet</text>
 
           <rect x="354" y="172" width="220" height="34" rx="6" fill="#161C25" stroke="#3DDC97" stroke-width="1.2"/>
-          <text x="464" y="193" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10.5" fill="#E4E9EF">Auto Scaling Group — EC2 (SSM only)</text>
+          <text x="464" y="193" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10.5" fill="#E4E9EF">Auto Scaling Group — EC2</text>
 
-          <!-- Aurora DB -->
+          <!-- RDS DB -->
           <rect x="404" y="226" width="120" height="34" rx="6" fill="#161C25" stroke="#3DDC97" stroke-width="1.2"/>
-          <text x="464" y="247" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10.5" fill="#E4E9EF">Aurora PostgreSQL</text>
+          <text x="464" y="247" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10.5" fill="#E4E9EF">Amazon RDS</text>
 
           <!-- connections -->
           <line x1="255" y1="101" x2="170" y2="172" stroke="#3DDC97" stroke-width="1.3" marker-end="url(#arrow)"/>
@@ -414,18 +443,18 @@
           <line x1="464" y1="206" x2="464" y2="226" stroke="#3DDC97" stroke-width="1.3" marker-end="url(#arrow)"/>
           <line x1="354" y1="189" x2="288" y2="189" stroke="#F2A93B" stroke-width="1.2" stroke-dasharray="3 3"/>
         </svg>
-        <div class="diagram-cap">traffic in via ALB → app tier (SSM-managed, no SSH) → Aurora · outbound-only via NAT</div>
+        <div class="diagram-cap">traffic in via ALB → app tier (EC2, Auto Scaling) → Amazon RDS · outbound-only via NAT</div>
       </div>
 
       <ul>
-        <li>Built a custom <b>VPC</b> with public and private subnets, using an <b>Internet Gateway</b> and <b>NAT Gateway</b> to control inbound/outbound traffic flow.</li>
-        <li>Fronted the app tier with an <b>Application Load Balancer</b> connected to an <b>Auto Scaling Group</b> for elasticity and availability.</li>
-        <li>Accessed backend instances through <b>AWS Systems Manager (SSM)</b> instead of SSH, removing the need for open inbound ports or key-based access.</li>
-        <li>Connected the app tier to a managed <b>Aurora PostgreSQL</b> database in the private subnet.</li>
+        <li>Configured a custom <b>VPC</b> with public/private subnets, route tables, an <b>Internet Gateway</b>, and a <b>NAT Gateway</b> for secure network segmentation.</li>
+        <li>Deployed the application on <b>EC2</b> instances behind an <b>Application Load Balancer</b> with an <b>Auto Scaling Group</b> for high availability and fault tolerance.</li>
+        <li>Integrated <b>Amazon RDS</b> as the managed database layer, isolating it within private subnets for improved security.</li>
+        <li>Documented the complete deployment with architecture diagrams and published the source code on GitHub for reproducibility.</li>
       </ul>
       <div class="project-tags">
-        <span class="tag">AWS VPC</span><span class="tag">ALB</span><span class="tag">Auto Scaling</span><span class="tag">NAT Gateway</span><span class="tag">SSM</span><span class="tag">Aurora PostgreSQL</span>
-      </div><div style="margin-top:18px;"><a class="btn" href="https://github.com/Krishna9451" target="_blank">GitHub Repository ↗</a></div>
+        <span class="tag">AWS VPC</span><span class="tag">ALB</span><span class="tag">Auto Scaling</span><span class="tag">NAT Gateway</span><span class="tag">Amazon RDS</span>
+      </div><div style="margin-top:18px;"><a class="btn" href="https://github.com/Krishna9451/aws-three-tier-web-architecture" target="_blank">GitHub Repository ↗</a></div>
     </div>
 
     <div class="project reveal">
@@ -462,20 +491,26 @@
     </div>
   </section>
 
-  
-<section id="certifications">
-<div class="sec-head reveal"><span class="sec-tag">01 · certifications</span><div class="sec-rule"></div></div>
-<div class="skill-card reveal">
-<h3>Current Learning</h3>
-<div class="skill-tags">
-<span class="tag">AWS Solution Architect (In Progress)</span>
+  <section id="achievements">
+    <div class="sec-head reveal"><span class="sec-tag">04 · achievements & certifications</span><div class="sec-rule"></div></div>
+    <div class="skill-groups reveal">
+      <div class="skill-card">
+        <h3>Achievements</h3>
+        <ul class="ach-list">
+          <li>Selected as <b>Student Placement Coordinator</b> (2026–2027), liaising between recruiters and students.</li>
+          <li>Solved <b>150+</b> Data Structures & Algorithms problems on <a href="https://leetcode.com/u/Shri_Krishna_Yadav/" target="_blank" rel="noopener">LeetCode</a>.</li>
+          <li>Completed a hands-on <b>Terraform / IaC</b> practice series, published at <a href="https://github.com/Krishna9451/iac-terraform" target="_blank" rel="noopener">github.com/Krishna9451/iac-terraform</a>.</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h3>Current Learning</h3>
+        <div class="skill-tags"><span class="tag">AWS Solutions Architect (In Progress)</span></div>
+      </div>
+    </div>
+  </section>
 
-</div>
-</div>
-</section>
-
-<section id="contact">
-    <div class="sec-head reveal"><span class="sec-tag">04 · contact</span><div class="sec-rule"></div></div>
+  <section id="contact">
+    <div class="sec-head reveal"><span class="sec-tag">05 · contact</span><div class="sec-rule"></div></div>
     <div class="contact-panel reveal">
       <div class="contact-lead"><span class="ok">●</span> open to opportunities — reach out any time</div>
       <div class="contact-phone">+91 94513 00449</div>
@@ -485,7 +520,7 @@
         <a class="btn" href="https://github.com/Krishna9451" target="_blank" rel="noopener"><span class="prompt">$</span>open github</a>
         <a class="btn" href="https://leetcode.com/u/Shri_Krishna_Yadav/" target="_blank" rel="noopener"><span class="prompt">$</span>open leetcode</a>
         <a class="btn" href="https://x.com/Shri_Krishna_Y" target="_blank" rel="noopener"><span class="prompt">$</span>open x</a>
-        <a class="btn" href="Shri_Krishna_Yadav_CV.pdf" target="_blank" rel="noopener"><span class="prompt">$</span>download resume</a>
+        <a class="btn" href="Shri_Krishna_Yadav_Resume.pdf" target="_blank" rel="noopener"><span class="prompt">$</span>download resume</a>
       </div>
     </div>
   </section>
